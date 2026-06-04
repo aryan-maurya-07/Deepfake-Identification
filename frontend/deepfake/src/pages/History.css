@@ -1,0 +1,35 @@
+.history-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;     /* full screen height */
+  background: #242424;   /* match dark theme */
+  color: white;
+}
+
+.history-page .card {
+  padding: 36px;
+  background: #1f1f1f;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  max-width: 800px;      /* keeps it neat */
+  width: 90%;            /* responsive */
+  overflow-x: auto;      /* avoid breaking on small screens */
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.history-table th, 
+.history-table td {
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: left;
+}
+
+.history-table th {
+  background: rgba(255,255,255,0.05);
+}

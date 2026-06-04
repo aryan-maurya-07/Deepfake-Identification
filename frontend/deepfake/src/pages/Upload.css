@@ -1,0 +1,31 @@
+.upload-page .card {
+  padding: 36px;
+  text-align: center;
+}
+
+.upload-box {
+  border: 2px dashed rgba(255,255,255,0.1);
+  padding: 40px;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.upload-box:hover {
+  border-color: var(--accent);
+  background: rgba(255,255,255,0.02);
+}
+
+.preview {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.upload-btn {
+  margin-top: 18px;
+  padding: 10px 16px;
+  font-size: 1rem;
+}

@@ -1,0 +1,37 @@
+.result-page .card {
+  padding: 36px;
+  text-align: center;
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.result-card {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.03);
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.result-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.result-label.fake {
+  color: #f87171; /* red */
+}
+
+.result-label.real {
+  color: #4ade80; /* green */
+}
+
+.result-confidence {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.8);
+}

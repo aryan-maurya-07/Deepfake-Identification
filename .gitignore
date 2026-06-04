@@ -1,0 +1,33 @@
+# React
+node_modules/
+dist/
+build/
+
+# Python
+venv/
+Backend/venv/
+__pycache__/
+*.pyc
+
+# AI Model Files
+*.pth
+*.pt
+
+# Dataset
+dataset/
+Backend/dataset/
+
+# Uploaded Files
+uploads/
+Backend/uploads/
+
+# Environment Files
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

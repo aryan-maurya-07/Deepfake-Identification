@@ -1,0 +1,9 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+torch==2.2.0
+torchvision==0.17.1
+numpy==1.25.0
+opencv-python==4.9.0.86
+mysql-connector-python==8.0.33
+python-dotenv==1.0.0
+werkzeug==2.3.7
